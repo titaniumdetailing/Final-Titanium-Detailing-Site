@@ -32,6 +32,15 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable} ${felixTitling.variable}`}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18099504581" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-18099504581');
+        `}} />
+      </head>
       <body className="min-h-screen antialiased">
         {children}
         <BookingModal />
