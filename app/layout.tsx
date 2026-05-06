@@ -22,9 +22,9 @@ const felixTitling = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Titanium Mobile Detailing | Premium Auto Detailing",
+  title: "Mobile Detailing Olathe KS | Titanium Mobile Detailing",
   description:
-    "Professional mobile auto detailing services brought directly to your door. Interior, exterior, full detail & ceramic coatings.",
+    "Top-rated mobile auto detailing in Olathe, KS. We come to you for interior detailing, exterior detailing, ceramic coatings & more. Serving the Kansas City metro area.",
 };
 
 export default function RootLayout({
