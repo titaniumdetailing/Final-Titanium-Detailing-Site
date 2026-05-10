@@ -40,7 +40,7 @@ export default function Hero() {
         </p>
 
         <h1 className="font-serif text-5xl md:text-7xl font-bold text-white leading-tight mb-6" style={{ marginTop: "40px" }}>
-          Your Car, <br className="hidden md:block" />
+          Car Detailing, <br className="hidden md:block" />
           <span className="text-white italic">Perfected.</span>
         </h1>
 
