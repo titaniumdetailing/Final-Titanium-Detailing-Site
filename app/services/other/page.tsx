@@ -4,8 +4,8 @@ import Image from "next/image";
 import Contact from "@/components/Contact";
 
 export const metadata = {
-  title: "Other Services | Titanium Mobile Detailing",
-  description: "Ceramic coating, headlight restoration, and engine bay cleaning. Mobile detailing services in Olathe, KS and Kansas City metro area.",
+  title: "Ceramic Coating & Headlight Restoration Olathe KS | Titanium Detailing",
+  description: "Ceramic coating from $699, headlight restoration from $70, engine bay cleaning from $80. Mobile detailing specialists serving Olathe, KS and the Kansas City metro area.",
 };
 
 const services = [

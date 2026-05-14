@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 
 export const metadata = {
-  title: "Detailing Services | Titanium Mobile Detailing",
-  description: "Interior detailing, exterior detailing, and full premium detail packages. Mobile car detailing in Olathe, KS and Kansas City metro area.",
+  title: "Interior & Exterior Car Detailing Olathe KS | Titanium Mobile Detailing",
+  description: "Interior detailing from $180, exterior from $120, full detail from $280. Professional mobile car detailing in Olathe, Overland Park & Kansas City metro. We come to you.",
 };
 
 const services = [
