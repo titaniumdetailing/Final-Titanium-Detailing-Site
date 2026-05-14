@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const images = ["/hero-first.jpg", "/hero9.jpg", "/hero7.jpg", "/hero2new.jpg", "/hero3.jpg", "/hero4.jpg", "/hero5.jpg", "/hero6.jpg", "/hero8.jpg", "/hero10.jpg"];
+const images = ["/hero-first.jpg", "/hero9.jpg", "/hero7.jpg", "/hero2new.jpg", "/hero4.jpg", "/hero5.jpg", "/hero6.jpg", "/hero8.jpg", "/hero10.jpg"];
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
