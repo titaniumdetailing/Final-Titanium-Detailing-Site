@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export const metadata = {
   title: "Other Services | Titanium Mobile Detailing",
@@ -11,7 +12,7 @@ const services = [
     name: "Ceramic Coating",
     price: "Starting at $699",
     tagline: "Long-term paint protection and paint correction",
-    icon: "🛡️",
+    icon: <Image src="/shield.png" alt="shield" width={48} height={48} />,
     features: [
       "Everything in Exterior Detail",
       "Full paint decontamination",
