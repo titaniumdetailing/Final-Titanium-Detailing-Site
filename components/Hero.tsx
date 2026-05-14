@@ -41,7 +41,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          We bring a showroom-quality detail straight to your driveway in Olathe, KS and the Kansas City metro area. No appointments to drive to — just flawless results wherever you are.
+          Professional mobile car detailing in Olathe, KS and the Kansas City metro area. Titanium Detailing specializes in full car details, interior detailing, and exterior detailing — delivering showroom-quality at-home car detailing directly to your driveway or workplace.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center" style={{ marginTop: "40px" }}>
