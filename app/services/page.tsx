@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Contact from "@/components/Contact";
 
 export const metadata = {
   title: "Services | Titanium Mobile Detailing",
@@ -69,6 +70,8 @@ export default function Services() {
           </div>
         </section>
       </main>
+      <br />
+      <Contact />
       <Footer />
     </>
   );

@@ -4,12 +4,12 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { label: "Overview", href: "#what-is-detailing" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Cities", href: "#cities" },
+  { label: "Overview", href: "/#what-is-detailing" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Cities", href: "/#cities" },
   { label: "Pricing", href: "/services" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Contact", href: "#contact" },
+  { label: "Why Us", href: "/#why-us" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -69,7 +69,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="#book"
             onClick={() => setOpen(false)}
             className="mt-2 px-5 py-2 bg-white text-brand font-semibold text-sm rounded text-center hover:bg-baby-blue transition-colors"
           >
