@@ -49,7 +49,7 @@ export default function Hero() {
             href="#book"
             className="inline-block px-8 py-4 bg-white text-brand-dark font-semibold rounded hover:bg-baby-blue transition-colors duration-300 text-base tracking-wide"
           >
-            Book Your Detail
+            Book Today
           </a>
           <a
             href="#pricing"
