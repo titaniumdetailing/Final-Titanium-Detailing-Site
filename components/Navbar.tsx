@@ -7,7 +7,7 @@ const links = [
   { label: "Overview", href: "#what-is-detailing" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Cities", href: "#cities" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Pricing", href: "/services" },
   { label: "Why Us", href: "#why-us" },
   { label: "Contact", href: "#contact" },
 ];

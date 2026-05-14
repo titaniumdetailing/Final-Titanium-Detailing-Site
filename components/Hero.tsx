@@ -52,7 +52,7 @@ export default function Hero() {
             Book Today
           </a>
           <a
-            href="#pricing"
+            href="/services"
             className="inline-block px-8 py-4 border-2 border-white text-white font-semibold rounded hover:bg-white hover:text-brand-dark transition-colors duration-300 text-base tracking-wide"
           >
             View Pricing

@@ -55,8 +55,7 @@ export default function WhatIsDetailing() {
               no hassle.
             </p>
             <p>
-              Whether you drive a daily commuter or a collector car, we tailor every detail
-              to your vehicle&apos;s specific needs.
+              Whether you drive a Toyota / Honda or a Lamborghini / Porsche, we focus on delivering the best detail we can — whether it be interior, exterior, or even a ceramic coating, we have you covered.
             </p>
           </div>
 
