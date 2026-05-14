@@ -35,8 +35,8 @@ export default function Hero() {
 
 
       <div className="relative z-20 max-w-4xl mx-auto px-6 text-center pt-24">
-<h1 className="font-serif text-5xl md:text-7xl font-bold text-white leading-tight mb-6" style={{ marginTop: "40px" }}>
-          Mobile Car Detailing <br className="hidden md:block" />
+<h1 className="font-serif text-3xl md:text-7xl font-bold text-white leading-tight mb-6" style={{ marginTop: "40px" }}>
+          Mobile Car Detailing <br />
           <span className="text-white italic">Olathe, KS</span>
         </h1>
 
