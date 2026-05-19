@@ -28,10 +28,10 @@ export default function Services() {
               {/* Detailing Services */}
               <a
                 href="/services/detailing"
-                className="group bg-white rounded-xl border border-brand/10 shadow-sm overflow-hidden flex flex-col items-center text-center hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="group bg-white rounded-xl shadow-sm overflow-hidden flex flex-col items-center text-center hover:shadow-md hover:-translate-y-1 transition-all duration-300"
               >
-                <div className="w-full h-64 relative mb-6">
-                  <Image src="/hero-first.jpg" alt="Car detailing" fill className="object-cover" />
+                <div className="w-full h-64 relative mb-6 overflow-hidden rounded-t-xl">
+                  <Image src="/hero-first.jpg" alt="Car detailing" fill className="object-cover" style={{margin: 0, padding: 0}} />
                 </div>
                 <div className="px-10 pb-10 flex flex-col items-center">
                 <h2 className="font-serif text-2xl font-bold text-brand-dark mb-3">
@@ -49,10 +49,10 @@ export default function Services() {
               {/* Other Services */}
               <a
                 href="/services/other"
-                className="group bg-white rounded-xl border border-brand/10 shadow-sm overflow-hidden flex flex-col items-center text-center hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="group bg-white rounded-xl shadow-sm overflow-hidden flex flex-col items-center text-center hover:shadow-md hover:-translate-y-1 transition-all duration-300"
               >
-                <div className="w-full h-64 relative mb-6">
-                  <Image src="/polish.jpg" alt="Other detailing services" fill className="object-cover" />
+                <div className="w-full h-64 relative mb-6 overflow-hidden rounded-t-xl">
+                  <Image src="/polish.jpg" alt="Other detailing services" fill className="object-cover" style={{margin: 0, padding: 0}} />
                 </div>
                 <div className="px-10 pb-10 flex flex-col items-center">
                 <h2 className="font-serif text-2xl font-bold text-brand-dark mb-3">

@@ -51,65 +51,6 @@ const packages = [
     ],
     back: [],
   },
-  {
-    name: "Headlight Restoration",
-    price: "Starting at $70",
-    icon: "💡",
-    tagline: "Restore clarity & road visibility",
-    front: [
-      "Remove yellowing & oxidation",
-      "Multi-stage sanding process",
-      "Polish & clarity restoration",
-      "UV sealant applied",
-      "Both headlights included",
-    ],
-    back: [
-      "Dramatically improves appearance",
-      "Improves nighttime visibility",
-      "Protects against future oxidation",
-      "Safer & cleaner look",
-      "Quick 1-hour service",
-    ],
-  },
-  {
-    name: "Engine Bay Cleaning",
-    price: "Starting at $80",
-    icon: "🔧",
-    tagline: "Clean under the hood",
-    front: [
-      "Degrease engine bay surfaces",
-      "Hand rinse & blow dry",
-      "Plastic & rubber protectant",
-      "Remove built-up grime & oil",
-      "Safe for all engine types",
-    ],
-    back: [
-      "Easier to spot leaks & issues",
-      "Preserves rubber & plastic parts",
-      "Improves resale value",
-      "Professional finish under the hood",
-      "Combined with any detail package",
-    ],
-  },
-  {
-    name: "Ceramic Coating",
-    price: "Starting at $699",
-    icon: <Image src="/shield.png" alt="shield" width={48} height={48} />,
-    tagline: "Long-term paint protection and paint correction",
-    front: [
-      "Everything in Exterior Detail",
-      "Full paint decontamination",
-      "Multi-stage paint correction",
-      "Professional-grade ceramic applied",
-      "Up to 7-year protection",
-      "Hydrophobic finish",
-    ],
-    back: [
-      "UV & oxidation resistance",
-      "Easier maintenance long-term",
-      "High-gloss depth & clarity",
-    ],
-  },
 ];
 
 export default function Pricing() {
@@ -177,6 +118,20 @@ export default function Pricing() {
               </div>
             </div>
           ))}
+          {/* Other Services card */}
+          <div className="sm:col-span-2 lg:col-span-3">
+            <a
+              href="/services/other"
+              className="flex flex-col sm:flex-row justify-center items-center text-center sm:text-left gap-4 bg-white rounded-xl border border-brand/10 shadow-sm px-10 py-8 hover:shadow-md hover:-translate-y-1 transition-all duration-300 w-full"
+            >
+              <div className="text-4xl">✨</div>
+              <div className="flex-1">
+                <h3 className="font-serif text-xl font-bold text-brand-dark mb-1">Other Services</h3>
+                <p className="text-brand text-xs">Ceramic coating, headlight restoration & engine bay cleaning</p>
+              </div>
+              <span className="text-brand font-semibold text-sm underline shrink-0">View Services →</span>
+            </a>
+          </div>
         </div>
 
         <p className="text-center text-brand-dark/50 text-[20px] mt-10">
