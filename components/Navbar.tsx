@@ -9,6 +9,7 @@ const links = [
   { label: "Cities", href: "/#cities" },
   { label: "Pricing", href: "/services" },
   { label: "Why Us", href: "/#why-us" },
+  { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/#contact" },
 ];
 
@@ -19,7 +20,7 @@ export default function Navbar() {
     <header className="fixed top-0 inset-x-0 z-50 bg-brand">
       <div className="w-full pl-4 pr-8 h-[124px] flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2.5 shrink-0">
+        <a href="/" className="flex items-center gap-2.5 shrink-0">
           <img src="/logo.png" alt="Titanium Detailing logo" className="h-[80px] w-auto" />
           <span className="text-[18px] tracking-wide text-white" style={{ fontFamily: "var(--font-felix), serif" }}>
             Titanium Detailing

@@ -9,12 +9,10 @@ export default function OurCities() {
               Service Area
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-brand-dark leading-snug mb-6">
-              We Detail Where You Live
+              Car Detailing Near Me?
             </h2>
             <p className="text-brand-dark/70 text-lg leading-relaxed mb-8">
-              Titanium Mobile Detailing proudly serves the Kansas City Metro Area and
-              surrounding cities. If you don&apos;t see your city listed, reach out —
-              we&apos;re always expanding.
+              Looking for car detailing near me in the Kansas City area? Titanium Mobile Detailing proudly serves Olathe and surrounding cities across the metro. If you don&apos;t see your city listed, reach out — we&apos;re always expanding.
             </p>
             <a
               href="#contact"
