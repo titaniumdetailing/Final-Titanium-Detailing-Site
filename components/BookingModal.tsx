@@ -6,7 +6,21 @@ export default function BookingModal() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const check = () => setOpen(window.location.hash === "#book");
+    const check = () => {
+      const isBook = window.location.hash === "#book";
+      if (isBook) {
+        // @ts-ignore
+        if (typeof gtag !== "undefined") {
+          // @ts-ignore
+          gtag('event', 'conversion', {
+            send_to: 'AW-18099504581/luGOCOG43bkcEMWLwrZD',
+            value: 1.0,
+            currency: 'USD',
+          });
+        }
+      }
+      setOpen(isBook);
+    };
     check();
     window.addEventListener("hashchange", check);
     return () => window.removeEventListener("hashchange", check);
